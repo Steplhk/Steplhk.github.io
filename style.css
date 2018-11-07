@@ -1,15 +1,41 @@
-p{
-"border-width: 7px;
-border-color: rgba(167, 118, 12, 0.96);
-padding-top: 10px;
-padding-bottom: 10px;
-font-family: Georgia;
-background-color: rgba(55, 123, 112, 0.96);
-}
+body {
+    padding-left: 11em;
+    color: purple;
+    background-color: #d8da3d;
+    font-family: Georgia, "Times New Roman",Times, serif;
+    }
+h1 {
+   font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+ }
 
-.yeah {
-border-width: 10x;
-border-color: black;
-border-style: solid;
-margin-top； -20px;
-}
+ul.navbar {
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+
+ul.navbar li:hover {
+    background: orange;
+ }
+
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: blue }
+a:visited {
+  color: purple }
+
+address {
+   margin-top: 1em;
+   padding-top: 1em;
+   border-top: thin dotted }
